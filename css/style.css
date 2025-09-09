@@ -1,0 +1,267 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.body {
+    font-family:"Roboto",sans-serif ;
+    
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+}
+/* Navbar */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    margin-top:25px;
+    font-size: larger;
+}
+.top-nav a:hover {
+    color: #b2c251;
+}
+/* Header  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+    
+    padding: 0 40px;
+    background-image: url(https://toshpulatovalimardon.github.io/flex-portfolio/assets/images/header/header-bg.webp);
+    background-size: cover;
+}
+.header-text {
+    flex:1;
+    align-items: center;
+    padding-left: 200px;
+    font-size: 30px;
+}
+.header-text h1 {
+  font-weight: 700; /* or 'bold' */
+  opacity: 2;
+}
+.header p {
+    color:#b0b0b0;
+    font-size: 20px;
+}
+.header span {
+    font-size: 40px;
+}
+/* Portfolio-section */
+.portfolio {
+  background: #222;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 60px 100px;
+}
+
+.portfolio h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.portfolio-items {
+  flex: 1 1 calc(33.333% - 15px); 
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.portfolio-items h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.portfolio-items a {
+  font-weight: bold;
+  font-size:large;
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-items a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-img {
+  width: 100%;         
+  height:auto; 
+  border-radius: 15px;       
+  object-fit: cover;   
+  display: block;
+}
+
+/* about-me section  */ 
+.about-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:60px;
+    padding: 40px 60px 20px;
+    background: #222;
+    
+}
+ .left-side-img img {
+    width:100%;
+    height:auto;
+ }
+ .left-side-img {
+    width: 50%;
+ }
+ .right-side-content {
+    width: 50%;
+    color: #b0b0b0;
+    font-size: 20px;
+ }
+ .right-side-content h1 {
+    font-size: xxx-large;
+    color: white;
+    padding: 20px 5px;
+ }
+ .btn {
+    background-color:#b2c251 ;
+    border-radius: 100px;
+    padding: 16px 48px;
+    display: inline-block;
+    margin-top: 60px;
+    transition: 0.3s;
+    color: #fff;
+ }
+ .btn:hover {
+  transform: scale(1.1);
+}
+/* Contact section  */
+ .contact {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #222;
+    padding: 60px 80px;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: #ffffff;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.contact-form {
+    background-color: transparent;
+}
+
+.form-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 18px 20px;
+    background-color: #444;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: inherit;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+    color: #888;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    background-color: #444;
+}
+
+.form-textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.send-button {
+    background:#b2c251;
+    color: #333;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    transform: translateY(-2px);
+}
+
+.contact-details {
+    padding-left: 40px;
+}
+
+.details-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.contact-item {
+    margin-bottom: 35px;
+}
+
+.contact-label {
+    color: #4a9eff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.contact-value {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.contact-value a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-value a:hover {
+    color: blue;
+    text-decoration: underline;
+}
