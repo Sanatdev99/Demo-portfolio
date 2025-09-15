@@ -19,7 +19,7 @@ a {
     align-items: center;
     gap:25px;
     margin-top:25px;
-    font-size: larger;
+    font-size: 30px;
 }
 .top-nav a:hover {
     color: #b2c251;
@@ -31,16 +31,20 @@ a {
     align-items: center;
     color: white;
     margin-top: 40px;
-    
     padding: 0 40px;
     background-image: url(https://toshpulatovalimardon.github.io/flex-portfolio/assets/images/header/header-bg.webp);
     background-size: cover;
 }
 .header-text {
-    flex:1;
+    flex-grow:1;
     align-items: center;
     padding-left: 200px;
     font-size: 30px;
+}
+.header-img img {
+    width: 900px;
+    border-radius: 40px;
+    padding-right: 150px;
 }
 .header-text h1 {
   font-weight: 700; /* or 'bold' */
@@ -116,16 +120,18 @@ a {
     
 }
  .left-side-img img {
-    width:100%;
+    width:600px;
     height:auto;
+    padding-left: 150px;
+    padding-top: 40px;
  }
  .left-side-img {
     width: 50%;
  }
  .right-side-content {
-    width: 50%;
+    width: 70%;
     color: #b0b0b0;
-    font-size: 20px;
+    font-size: 40px;
  }
  .right-side-content h1 {
     font-size: xxx-large;
@@ -150,14 +156,15 @@ a {
     margin: 0 auto;
     background-color: #222;
     padding: 60px 80px;
+    
 }
 
 .contact-title {
     text-align: center;
-    font-size: 3rem;
     font-weight: 700;
     margin-bottom: 60px;
     color: #ffffff;
+    font-size: 80px;
 }
 
 .contact-container {
@@ -172,7 +179,7 @@ a {
 }
 
 .form-title {
-    font-size: 2rem;
+    font-size: 60px;
     font-weight: 600;
     margin-bottom: 40px;
     color: #ffffff;
@@ -199,6 +206,7 @@ a {
 .form-input::placeholder,
 .form-textarea::placeholder {
     color: #888;
+    font-size: 30px;
 }
 
 .form-input:focus,
@@ -217,7 +225,7 @@ a {
     border: none;
     padding: 15px 35px;
     border-radius: 25px;
-    font-size: 1rem;
+    font-size: 40px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -228,10 +236,11 @@ a {
 
 .contact-details {
     padding-left: 40px;
+    font-size: 60px;
 }
 
 .details-title {
-    font-size: 2rem;
+    font-size: 60px;
     font-weight: 600;
     margin-bottom: 40px;
     color: #ffffff;
@@ -239,19 +248,20 @@ a {
 
 .contact-item {
     margin-bottom: 35px;
+
 }
 
 .contact-label {
     color: #4a9eff;
-    font-size: 1.1rem;
+    font-size: 40px;
     font-weight: 500;
     margin-bottom: 8px;
-    display: block;
+
 }
 
 .contact-value {
     color: #ffffff;
-    font-size: 1.1rem;
+    font-size:35px;
     font-weight: 400;
     line-height: 1.4;
 }
